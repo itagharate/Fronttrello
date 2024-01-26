@@ -1,0 +1,11 @@
+<ul>
+    <li>{{ carte.titre }}</li>
+    <li>{{ carte.description }}</li>
+    <div class="affichageCommentaire" *ngFor="let commentaire of commentaires">
+        <app-commentaire [commentaire]="commentaire"></app-commentaire>
+    </div>
+</ul>
+<form>
+    <input type="text" [(ngModel)]="newComs" name="newComs">
+    <button (click)="this.sendComs()">Ajouter un commentaire</button>
+</form>

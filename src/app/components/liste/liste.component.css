@@ -1,0 +1,11 @@
+li {
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Roboto', cursive;
+    margin-right: 27px;
+}
+ul {
+    display: flex;
+    border: thick double saddlebrown;
+    list-style: none;
+}

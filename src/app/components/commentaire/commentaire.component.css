@@ -1,0 +1,11 @@
+li:last-child {
+    font-style: italic;
+}
+li {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    border: thick double green;
+}

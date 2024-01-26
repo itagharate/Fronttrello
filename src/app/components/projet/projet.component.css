@@ -1,0 +1,32 @@
+.side {
+    background-color: #fdfdfd;
+    border: 1px solid #94bbe9;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 20%;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px black
+  }
+
+  button {
+    background-color: #b3ccff;
+  }
+
+  button:hover {
+    background-color: #eeaeca;
+  }
+
+  p {
+    font-family: 'Roboto', cursive;
+    font-size: 25px;
+  }
+  .listeTache {
+    background-color: #b3ccff;
+  }

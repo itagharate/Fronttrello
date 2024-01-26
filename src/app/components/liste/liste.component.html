@@ -1,0 +1,10 @@
+<ul>
+    <li>{{ this.liste.nom }}</li>
+        <div class="listecard" *ngFor="let carte of cartes">
+            <app-carte [carte]="carte"></app-carte>
+        </div>
+        <li>{{ this.liste.projet }}</li>
+    </ul>
+    
+    
+
